@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da600aa0-2ab9-45d9-8d56-10406dbe2ba4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/AdmitRecordApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-application/src/main/java/edu/cal/CalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/CollegeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/entity/CollegeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/JpaCollegeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/jparepository/JpaCollegeEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/interfaces/CollegeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeNature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/StudensApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../OSS/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\OSS\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2jXb8T7ypCIcXxhXPuhJpovZw6f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/MyProject/AL/Source/cal-student",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "profiler.jvm",
+    "settings.editor.splitter.proportion": "0.2931596",
+    "spring.configuration.checksum": "726bb8a8db8b16e06a65207b10de1823"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\AL\Source\cal-college\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProject\AL\Source" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da600aa0-2ab9-45d9-8d56-10406dbe2ba4" name="Changes" comment="" />
+      <created>1721536212706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721536212706</updated>
+      <workItem from="1721536215150" duration="2675000" />
+      <workItem from="1721540920924" duration="920000" />
+      <workItem from="1721541880246" duration="3442000" />
+      <workItem from="1721556025770" duration="217000" />
+      <workItem from="1721556301988" duration="287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
