@@ -1,16 +1,14 @@
-package edu.cal.college.vo;
+package edu.cal.common.vo;
 
 /**
- * 办学性质
+ * 招生类型：普通类，单招类，定向类
  */
-public enum CollegeNature {
-    PUBLIC("公立"),
-    PRIVATE("民办"),
-    COOPERATE("中外合作办学"),
+public enum EnrollmentType {
+    COMMON("普通类"),
     ;
 
     private String description;
-    CollegeNature(String description) {
+    EnrollmentType(String description) {
         this.description = description;
     }
     public String getName() {

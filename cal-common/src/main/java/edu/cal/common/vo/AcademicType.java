@@ -1,16 +1,15 @@
-package edu.cal.college.vo;
+package edu.cal.common.vo;
 
 /**
- * 办学性质
+ * 科类
  */
-public enum CollegeNature {
-    PUBLIC("公立"),
-    PRIVATE("民办"),
-    COOPERATE("中外合作办学"),
-    ;
+public enum AcademicType {
+    SCIENCE("理科"),
+    ARTS("文科"),
+    OTHER("其它");
 
     private String description;
-    CollegeNature(String description) {
+    AcademicType(String description) {
         this.description = description;
     }
     public String getName() {

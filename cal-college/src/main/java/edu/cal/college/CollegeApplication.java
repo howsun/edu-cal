@@ -9,8 +9,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@EntityScan({"edu.cal.college.interfaces.entity"})
-@EnableJpaRepositories(basePackages = "edu.cal.college.interfaces.repository.jparepository")
+@EntityScan({"edu.cal.college.infrastructure.entity"})
+@EnableJpaRepositories(basePackages = "edu.cal.college.infrastructure.repository.jparepository")
 @EnableJpaAuditing
 @EnableTransactionManagement
 public class CollegeApplication {

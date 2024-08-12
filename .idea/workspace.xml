@@ -4,31 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da600aa0-2ab9-45d9-8d56-10406dbe2ba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-admitrecord/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/AdmitRecordApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-application/src/main/java/edu/cal/CalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/CollegeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/entity/CollegeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/JpaCollegeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/jparepository/JpaCollegeEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/interfaces/CollegeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeNature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-college/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-student/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/StudensApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="da600aa0-2ab9-45d9-8d56-10406dbe2ba4" name="Changes" comment="编写服务层">
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/domain/model/ScoreRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/domain/repository/ScoreRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/domain/service/ScoreRecordServie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/domain/service/ScoreRecordServieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/infrastructure/entity/ScoreRecordEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/infrastructure/repository/ScoreRecordRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/java/edu/cal/admitrecord/infrastructure/repository/jparepository/ScoreRecordJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-admitrecord/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-application/src/main/java/edu/cal/application/infrastructure/entity/RecommendEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/model/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/model/Major.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/repository/CollegeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/service/CollegeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/service/CollegeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/entity/MajorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/jparepository/JpaMajorEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-college/src/test/java/edu/cal/college/CollegeApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/src/main/java/edu/cal/common/db/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/src/main/java/edu/cal/common/sharedto/DistrictDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/src/main/java/edu/cal/common/vo/AcademicType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/src/main/java/edu/cal/common/vo/EnrollmentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-common/src/main/java/edu/cal/common/vo/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/domain/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/domain/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/domain/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/domain/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/entity/AccountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/entity/DistrictEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/entity/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/repository/JpaStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/repository/jparepository/AccountJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/repository/jparepository/DistrictJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cal-student/src/main/java/edu/cal/student/infrastructure/repository/jparepository/StudentJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-admitrecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cal-admitrecord/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cal-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/CollegeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/CollegeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/domain/College.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/entity/CollegeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/entity/CollegeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/JpaCollegeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/infrastructure/repository/JpaCollegeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/interfaces/CollegeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/interfaces/CollegeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeNature.java" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/java/edu/cal/college/vo/CollegeNature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-college/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cal-college/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal-student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cal-student/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +81,7 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../../OSS/apache-maven-3.8.6" />
         <option name="useMavenConfig" value="true" />
-        <option name="userSettingsFile" value="D:\OSS\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="userSettingsFile" value="E:\maven_repository\settings-aliyun.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -67,32 +93,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/MyProject/AL/Source/cal-student",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "profiler.jvm",
-    "settings.editor.splitter.proportion": "0.2931596",
-    "spring.configuration.checksum": "726bb8a8db8b16e06a65207b10de1823"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/MyProject/AL/Source/cal-college/src/main/java/edu/cal/college/domain&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProject/AL/Source/cal-admitrecord/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2931596&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6056ab27e01749165ab4b99f635ac00c&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\AL\Source\cal-admitrecord\src\main\resources" />
       <recent name="D:\MyProject\AL\Source\cal-college\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyProject\AL\Source" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.cal.college.infrastructure.repository.jparepository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CollegeApplicationTest.test">
+    <configuration name="SnowflakeIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.cal.common.db.SnowflakeIdWorker" />
+      <module name="cal-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cal.common.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollegeApplicationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cal-college" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cal.college.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.cal.college" />
+      <option name="MAIN_CLASS_NAME" value="edu.cal.college.CollegeApplicationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollegeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cal-college" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.cal.college.CollegeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cal.college.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CollegeApplicationTest.test" />
+        <item itemvalue="Spring Boot.CollegeApplication" />
+        <item itemvalue="Application.SnowflakeIdWorker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\howsun\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="da600aa0-2ab9-45d9-8d56-10406dbe2ba4" name="Changes" comment="" />
@@ -104,14 +193,45 @@
       <workItem from="1721540920924" duration="920000" />
       <workItem from="1721541880246" duration="3442000" />
       <workItem from="1721556025770" duration="217000" />
-      <workItem from="1721556301988" duration="287000" />
+      <workItem from="1721556301988" duration="2383000" />
+      <workItem from="1721660516053" duration="19000" />
+      <workItem from="1723347206114" duration="17347000" />
+      <workItem from="1723387664055" duration="1301000" />
+      <workItem from="1723428290157" duration="349000" />
     </task>
+    <task id="LOCAL-00001" summary="增加前端工程">
+      <created>1721557231061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721557231061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="增加前端工程" />
+    <MESSAGE value="修改实体字段" />
+    <MESSAGE value="编写服务层" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写服务层" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
