@@ -1,0 +1,31 @@
+# 工程说明
+        <!---公共 -->
+        <module>cal-common</module>
+
+        <!--通用域-大学-->
+        <module>cal-college</module>
+
+        <!--通用域-大学历年录取记录-->
+        <module>cal-admitrecord</module>
+
+        <!--通用域-学生，登录账号-->
+        <module>cal-student</module>
+
+        <!--业务域-填报-->
+        <module>cal-application</module>
+
+        <!--
+        //后台
+        <module>cal-frontend-admin</module>
+        //APP
+        <module>cal-frontend-app</module>
+
+        //支撑域——注册中心
+        <module>cal-system-eureka</module>
+        //支撑域——配置中心
+        <module>cal-system-config</module>
+        //支撑域——网关
+        <module>cal-system-gateway</module>
+        //支撑域——认证
+        <module>cal-system-auth</module>
+        -->
